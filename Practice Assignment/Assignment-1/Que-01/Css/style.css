@@ -28,7 +28,7 @@
 }
 
 .nav .navi ul li{
-    padding-left: 30px;
+    padding-left: 60px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -44,16 +44,21 @@
 
 .main-container .sec-1{
     height: 600px;
-    width: 1050px;
+    width: 990px;
     margin-top: 20px;
     margin-left: 50px;
     background-color: aquamarine;
 }
 
 .main-container .sec-2{
-    height: 600px;
-    width: 300px;
-    margin-top: 20px;
+    height: 100vh;
+    width: 350px;
     margin-left: 10px;
     background-color: aquamarine;
+}
+
+
+.image{
+   margin-left: 100px;
+   margin-top: 30px;
 }
