@@ -43,7 +43,7 @@
 }
 
 .main-container .sec-1{
-    height: 600px;
+    height: 900px;
     width: 990px;
     margin-top: 20px;
     margin-left: 50px;
@@ -51,7 +51,7 @@
 }
 
 .main-container .sec-2{
-    height: 100vh;
+    height: 940px;
     width: 350px;
     margin-left: 10px;
     background-color: aquamarine;
@@ -68,4 +68,25 @@
     font-weight: bold;
     font-size: 20px;
     font-family: 'Kanit', sans-serif;
+}
+
+.main-container .sec-1 .Information{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.main-container .sec-1 .Information .info{
+    display: flex;
+}
+
+.info .date,.info .event{
+    width: 100px;
+    height: 30px;
+    background-color: gray;
+    margin-top: 10px;
+}
+
+.info .event{
+    width: 600px;
+    background-color: #002333;
 }
