@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+  height: 100px;
+  width: 100%;
+  background-color: #159A9C;
+}
+
+.nav .navi{
+    float: right;
+    margin-right: 150px;
+    margin-top: 40px;
+}
+
+.nav i{
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+.nav .navi ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav .navi ul li{
+    padding-left: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav .navi ul li:hover{
+    cursor: pointer;
+    color: blueviolet;
+    font-weight: bold;
+}
+
