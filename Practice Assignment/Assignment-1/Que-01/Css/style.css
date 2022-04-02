@@ -47,7 +47,7 @@
     width: 990px;
     margin-top: 20px;
     margin-left: 50px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .main-container .sec-2{
@@ -80,8 +80,8 @@
 }
 
 .info .date,.info .event{
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 40px;
     background-color: gray;
     margin-top: 10px;
 }
@@ -89,4 +89,18 @@
 .info .event{
     width: 600px;
     background-color: #002333;
+}
+
+.quote{
+    width: 400px;
+    height: 80px;
+    margin-top: 70px;
+    margin-left: 250px;
+    border: 3px solid #002333;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.quote h4{
+    color: #159A9C;
 }
