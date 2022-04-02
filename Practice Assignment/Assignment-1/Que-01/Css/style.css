@@ -87,7 +87,7 @@ body{
 .info .date,.info .event{
     width: 150px;
     height: 40px;
-    background-color: gray;
+    background-color: #159A9C;
     margin-top: 10px;
     text-align: center;
 }
