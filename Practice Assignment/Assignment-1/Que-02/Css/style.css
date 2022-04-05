@@ -77,3 +77,7 @@ body{
     background-color: #C2E0F2;
     opacity: 0.6;
 }
+
+.sec-4{
+    display: flex;
+}
