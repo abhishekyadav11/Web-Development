@@ -71,7 +71,7 @@ body{
    cursor: pointer;
 }
 
-.sec-3 .para1{
+.sec-3 .para-1{
     height: 150px;
     padding: 50px;
     background-color: #C2E0F2;
@@ -80,4 +80,8 @@ body{
 
 .sec-4{
     display: flex;
+}
+
+.sec-4 .para-2,.sec-4 .para-3{
+    
 }
