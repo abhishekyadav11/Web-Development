@@ -71,11 +71,15 @@ body{
    cursor: pointer;
 }
 
-.sec-3 .para-1{
-    height: 150px;
+.para-1{
+    height: 200px;
     padding: 50px;
     background-color: #C2E0F2;
     opacity: 0.6;
+}
+
+.sec-5 .para-1{
+    margin-bottom: 20px;
 }
 
 .sec-4{
