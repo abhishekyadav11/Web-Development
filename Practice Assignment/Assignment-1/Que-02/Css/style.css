@@ -83,5 +83,8 @@ body{
 }
 
 .sec-4 .para-2,.sec-4 .para-3{
-    
+    padding: 50px;
+    margin: 5px;
+    background-color: beige;
+    opacity: 0.5;
 }
