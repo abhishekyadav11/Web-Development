@@ -79,11 +79,40 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.sec-2 .info .icon{
+.sec-2  .main{
+   margin-top: 50px;
+}
+
+.sec-2 .main .info .icon{
        background-color: #4BBCF2;
        color: #FFFFFF;
 }
 
+.sec-2 .main .info .icon{
+    width: 45px;
+    height: 25px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.sec-2 .icon i{
+    padding: 8px;
+}
+
 .info .text p{
     font-size: 10px;
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
 }
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .sec-1,.sec-2 {
+      width: 50%;
+    }
+
+    .container{
+        display: inline-block;
+    }
+
+  }
