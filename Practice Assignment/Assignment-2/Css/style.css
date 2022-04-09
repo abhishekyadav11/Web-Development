@@ -10,15 +10,15 @@ body{
 }
 
 .container{
-    width: 900px;
-    height: 500px;
+    width: 800px;
+    height: 350px;
     display: flex;
     margin: 50px 200px;
 }
 
 .container .sec-1,.container .sec-2{
-    width: 450px;
-    height: 500px;
+    width: 400px;
+    height: 350px;
     background-color: #109FEE;
 }
 
@@ -30,6 +30,7 @@ body{
     width: 160px;
     padding: 70px;
     padding-bottom: 0;
+    line-height: 25px;
 }
 
 .container .sec-1 h3{
@@ -53,12 +54,36 @@ body{
     color: white;
 }
 
-.icon i{
-    border-radius: 50%;
+.info{
+    display: flex;
+}
+
+.icon{
     width: 20px;
     height: 20px;
+    border-radius: 100%;
     background-color: #FFFFFF;
-    size: 0.2px;
     color: #4BBCF2;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 10px;
+}
+
+.icon i{
     padding: 5px;
+}
+
+.info .text{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec-2 .info .icon{
+       background-color: #4BBCF2;
+       color: #FFFFFF;
+}
+
+.info .text p{
+    font-size: 10px;
 }
