@@ -105,14 +105,3 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-@media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    .sec-1,.sec-2 {
-      width: 50%;
-    }
-
-    .container{
-        display: inline-block;
-    }
-
-  }
