@@ -42,7 +42,7 @@ body{
 .container .sec-1 .para{
     width: 160px;
     padding: 70px;
-    padding-top: 0;
+    padding-top: 10px;
     padding-bottom: 0;
 }
 
@@ -51,4 +51,14 @@ body{
     font-family: 'Poppins', sans-serif;
     line-height: 16px;
     color: white;
+}
+
+.icon i{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    size: 0.2px;
+    color: #4BBCF2;
+    padding: 5px;
 }
