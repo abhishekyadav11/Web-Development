@@ -80,7 +80,7 @@ body{
 }
 
 .sec-2  .main{
-   margin-top: 50px;
+   padding-top: 50px;
 }
 
 .sec-2 .main .info .icon{
@@ -105,3 +105,15 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+
+    .container{
+        flex-direction: column;
+    }
+
+    .sec-2 .main{
+        padding-top: 10px;
+    }
+
+  }
