@@ -125,8 +125,8 @@ body{
     .container .nav{
         visibility: visible; 
         display: inline;
-        padding: 5px;
-        padding-top: 10px;
+        padding: 15px;
+        padding-top: 20px; 
     }
 
     .container .nav h4{
@@ -138,6 +138,7 @@ body{
     .container .nav i{
         float: right;
         padding-top: 5px;
+        color: #4BBCF2;
     }
 
     .container .sec-1,.container .sec-2{
@@ -150,7 +151,6 @@ body{
     .container .sec-1{
         height: 400px;
     }
-
     
     .container .sec-2{
         background-color: #FFFFFF;
@@ -171,8 +171,8 @@ body{
     .container .sec-1 .para{
         width: 100px;
         padding: 15px;
-        padding-top: 10px;
-        padding-bottom: 0;
+        padding-top: 15px;
+        padding-bottom: 10px;
     }
 
     .container .sec-1 p{
@@ -193,8 +193,7 @@ body{
     .sec-2 .main .info .icon{
         width: 45px;
         height: 25px;
-        margin-top: 40px;
-        margin-left: 15px;
+        margin: 40px 10px 0 10px;
     }
 
   }
