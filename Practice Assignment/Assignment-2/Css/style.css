@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Space+Grotesk:wght@700&family=Sunflower:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@700&family=Sunflower:wght@700&display=swap');
 
 *{
     margin: 0;
@@ -14,6 +14,10 @@ body{
     height: 350px;
     display: flex;
     margin: 50px 200px;
+}
+
+.container .nav{
+    visibility: hidden; 
 }
 
 .container .sec-1,.container .sec-2{
@@ -105,3 +109,87 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+ 
+    .container{
+        width: 200px;
+        height: 530px;
+        margin: 50px;
+        flex-direction: column;
+        background-color: #FFFFFF;
+    }
+     
+    .container .nav{
+        visibility: visible; 
+        display: inline;
+        padding: 5px;
+        padding-top: 10px;
+    }
+
+    .container .nav h4{
+        display: inline;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+
+    .container .nav i{
+        float: right;
+        padding-top: 5px;
+    }
+
+    .container .sec-1,.container .sec-2{
+        width: 200px;
+        height: 530px;
+        background-color: #109FEE;
+        border-radius: 5px;
+    }
+
+    .container .sec-2{
+        background-color: #FFFFFF;
+    }
+
+    .container .sec-1 .head{
+        width: 170px;
+        padding: 15px;
+        padding-bottom: 0;
+        line-height: 25px;
+    }
+
+    .icon{
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    .container .sec-1 .para{
+        width: 100px;
+        padding: 15px;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+
+    .container .sec-1 p{
+        font-size: 6px;
+        line-height: 8px;
+    }
+
+    .info .text{
+        margin-top: 10px;
+        margin-left: 5px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .sec-2 .main{
+        padding-top: 10px;
+    }
+
+    .sec-2 .main .info .icon{
+        width: 45px;
+        height: 25px;
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+
+  }
