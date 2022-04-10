@@ -160,8 +160,7 @@ body{
     }
 
     .icon{
-        margin-left: 15px;
-        margin-top: 10px;
+        margin: 10px 0 0 15px;
     }
 
     .container .sec-1 .para{
