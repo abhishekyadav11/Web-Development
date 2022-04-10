@@ -116,7 +116,7 @@ body{
  
     .container{
         width: 200px;
-        height: 530px;
+        height: 500px;
         margin: 50px;
         flex-direction: column;
         background-color: #FFFFFF;
@@ -142,7 +142,7 @@ body{
 
     .container .sec-1,.container .sec-2{
         width: 200px;
-        height: 530px;
+        height: 500px;
         background-color: #109FEE;
         border-radius: 5px;
     }
