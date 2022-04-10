@@ -116,7 +116,7 @@ body{
  
     .container{
         width: 200px;
-        height: 500px;
+        height: 600px;
         margin: 50px;
         flex-direction: column;
         background-color: #FFFFFF;
@@ -142,15 +142,16 @@ body{
 
     .container .sec-1,.container .sec-2{
         width: 200px;
-        height: 500px;
+        height: 550px;
         background-color: #109FEE;
         border-radius: 5px;
     }
 
     .container .sec-1{
-        height: 450px;
+        height: 400px;
     }
 
+    
     .container .sec-2{
         background-color: #FFFFFF;
     }
@@ -194,10 +195,6 @@ body{
         height: 25px;
         margin-top: 40px;
         margin-left: 15px;
-    }
-
-    #Txt::after{
-       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit.";
     }
 
   }
