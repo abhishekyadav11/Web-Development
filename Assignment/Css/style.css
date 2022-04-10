@@ -105,7 +105,7 @@ body{
 
 .info .text p{
     font-size: 10px;
-    padding-top: 5px;
+    padding: 5px 5px 0 0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -116,7 +116,7 @@ body{
  
     .container{
         width: 200px;
-        height: 600px;
+        height: 620px;
         margin: 50px;
         flex-direction: column;
         background-color: #FFFFFF;
@@ -143,7 +143,7 @@ body{
 
     .container .sec-1,.container .sec-2{
         width: 200px;
-        height: 550px;
+        height: 620px;
         background-color: #109FEE;
         border-radius: 5px;
     }
@@ -188,6 +188,10 @@ body{
 
     .sec-2 .main{
         padding-top: 10px;
+    }
+
+    .sec-2 .main .info{
+        margin-top: 15px;
     }
      
     .sec-2 .main .info .icon{
