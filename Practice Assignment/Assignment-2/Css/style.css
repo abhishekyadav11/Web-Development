@@ -147,6 +147,10 @@ body{
         border-radius: 5px;
     }
 
+    .container .sec-1{
+        height: 450px;
+    }
+
     .container .sec-2{
         background-color: #FFFFFF;
     }
@@ -184,12 +188,16 @@ body{
     .sec-2 .main{
         padding-top: 10px;
     }
-
+     
     .sec-2 .main .info .icon{
         width: 45px;
         height: 25px;
         margin-top: 40px;
         margin-left: 15px;
+    }
+
+    #Txt::after{
+       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit.";
     }
 
   }
