@@ -55,3 +55,24 @@
     font-weight: 500;
     color: #7287A4;
 }
+
+
+.Container{
+    width: 96%;
+    height: 50rem;
+    background-color: #F6F7F7;
+    margin-left: 2%;
+}
+
+.Container .boxes{
+    display: flex;
+    padding-left: 10rem;
+    padding-top: 5rem;
+}
+
+.Container .boxes .box{
+     width: 15rem;
+     height: 6rem;
+     background-color: #FFFFFF;
+     margin: 1rem;
+}
