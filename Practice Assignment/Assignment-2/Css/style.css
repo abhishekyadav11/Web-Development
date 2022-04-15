@@ -42,5 +42,16 @@
     margin-top: -0.2rem;
 }
 
+.nav ul{
+    list-style: none;
+    display: flex;
+    margin-left: 10rem;
+    margin-top: 1rem;
+}
 
-
+.nav ul li{
+    padding-left: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #7287A4;
+}
