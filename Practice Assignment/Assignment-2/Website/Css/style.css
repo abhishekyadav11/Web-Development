@@ -129,7 +129,7 @@
     height: 400px;
     width: 350px;
     background-color: #373F50;
-    background: url("/Images/NASA_Mars_Rover.jpg");
+    background: url("../Images/NASA_Mars_Rover.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     
