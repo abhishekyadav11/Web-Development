@@ -127,15 +127,12 @@
 .Container .info .img-sec{
     margin: 2rem 0 0 3rem;
     height: 400px;
-    width: 350px;
-    background-color: #373F50;
-    background: url("../Images/NASA_Mars_Rover.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    width: 300px;  
+}
+
+.Container .info .img-sec img{
+    border-radius: 50px;
+    border-top-left-radius: 0;
 }
 
 .Container .info .circle {
