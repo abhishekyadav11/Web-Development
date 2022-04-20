@@ -59,7 +59,7 @@
 
 .Container{
     width: 96%;
-    height: 50rem;
+    height: 70rem;
     background-color: #F6F7F7;
     margin-left: 2%;
 }
@@ -146,4 +146,16 @@
      background-color: #373F50;
      border-radius: 50%;
      margin-left: 20px;
+}
+
+.images{
+    margin: 5rem 0 5rem 11rem;
+    display: flex;
+}
+
+.images .image-box{
+    width: 400px;
+    height: 200px;
+    margin-left: 10px;
+    background-color: #373F50;
 }
