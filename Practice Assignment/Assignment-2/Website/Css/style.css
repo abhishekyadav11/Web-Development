@@ -57,7 +57,7 @@
 }
 
 
-.Container{
+.Container,.Block{
     width: 96%;
     height: 60rem;
     background-color: #F6F7F7;
@@ -219,4 +219,8 @@
 
 #Con-3 h3{
     width: 180px;
+}
+
+.Block{
+    background-color: #F8F8F8;
 }
