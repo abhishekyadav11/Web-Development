@@ -256,3 +256,10 @@
     font-weight: 700;
     margin-left: 20px;
 }
+
+.Rect p{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
