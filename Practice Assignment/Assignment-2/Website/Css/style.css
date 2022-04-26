@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Playfair+Display:wght@500;600&family=Kanit:wght@700&family=Oswald:wght@700&family=Poppins:wght@300;400;500;600;700&family=Roboto&family=Staatliches&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Playfair+Display:wght@500;600&family=Libre+Baskerville:wght@400;700&family=Kanit:wght@700&family=Oswald:wght@700&family=Poppins:wght@300;400;500;600;700&family=Roboto&family=Staatliches&family=Ubuntu:wght@300&display=swap');
 
 *{
     padding: 0;
@@ -168,9 +168,9 @@
 .images .image-box h3{
     margin: 10px;
     margin-top: 20px;
-    font-family: 'Playfair Display', serif;
-    font-size: 18px;
-    font-weight: 600;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .images .image-box img{
@@ -223,4 +223,36 @@
 
 .Block{
     background-color: #F8F8F8;
+}
+
+.Block .Rectangle{
+    display: flex;
+}
+
+.Block .Rect{
+    width: 300px;
+    height: 300px;
+    background-color: #FFFFFF;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+
+.Rect h4{
+    display: inline;
+    padding: 5px;
+    background-color: #C7F6D6;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.Rect h3{
+    margin-top: 15px;
+    width: 250px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
 }
