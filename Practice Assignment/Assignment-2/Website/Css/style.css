@@ -237,9 +237,13 @@
     border-radius: 10px;
 }
 
-.Rect h4{
+.Rect .Rect-Head{
+    margin-top: 30px;
+}
+
+.Rect .Rect-Head h4{
     display: inline;
-    padding: 5px;
+    padding: 8px;
     background-color: #C7F6D6;
     border-radius: 5px;
     text-align: center;
@@ -262,4 +266,6 @@
     margin-left: 20px;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
+    font-weight: 400;
+    color: #8f9aab;
 }
