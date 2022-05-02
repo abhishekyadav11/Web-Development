@@ -179,37 +179,37 @@
     border-radius: 5px;
 }
 
-.name-date,.date-time{
+.name-date,.date-time,.time{
     display: flex;
     font-family: 'Poppins', sans-serif;
 }
 
-.name-date h5{
+.name-date h5,.cir-2 .name{
    font-size: 10px;
    margin: 10px;
    margin-right: 5px;
    color: #616974;
 }
 
-.name-date h6,.date-time h6{
+.name-date h6,.date-time h6,.name h5,.time h6{
     font-size: 8px;
     font-weight: 500;
     margin: 11px 5px 11px 5px;
     color: #8f9aab;
 }
 
-.date-time h6{
+.date-time h6,.time h6{
     margin-left: 10px;
     font-size: 10px;
 }
 
-.name-date i,.date-time i{
+.name-date i,.date-time i,.time i{
     margin-top: 12px;
     font-size: 8px;
     color: #8f9aab;
 }
 
-.date-time i{
+.date-time i,.time i{
     font-size: 10px;
 }
 
@@ -246,7 +246,7 @@
     border-radius: 10px;
 }
 
-.Rect .Rect-Head{
+.Rect .Rect-Head,.cir-2{
     margin-top: 30px;
 }
 
@@ -289,6 +289,24 @@
 
 .Rect .img-user{
     margin: 0;
-    margin-left: -44px;
+    margin-left: -40px;
     border-radius: 50px;
+}
+
+.circular{
+    display: flex;
+}
+
+.cir-2 .name h5{
+   font-size: 12px;
+   margin-top: -5px;
+}
+
+.name{
+  margin-bottom: 0;
+}
+
+.cir-2 .time{
+    margin-top: -15px;
+    margin-left: 5px;
 }
