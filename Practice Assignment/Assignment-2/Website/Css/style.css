@@ -56,7 +56,6 @@
     color: #7287A4;
 }
 
-
 .Container,.Block{
     width: 96%;
     height: 60rem;
@@ -225,7 +224,7 @@
     background-color: #F8F8F8;
 }
 
-.Block .h3{
+.Block .h3,.WhatsNew .h3{
     padding: 2rem 0 0 12rem;
     font-family: 'Libre Baskerville', serif;
     font-size: 20px;
@@ -313,4 +312,19 @@
 .cir-2 .time{
     margin-top: -15px;
     margin-left: 5px;
+}
+
+.WhatsNew .Big{
+    display: flex;
+}
+
+.Big .BigBlock{
+    width: 350px;
+    height: 500px;
+    background-color: #373F50;
+    margin: 50px 0 10px 10px;
+}
+
+.Big .bigb1{
+    margin-left: 12rem;
 }
