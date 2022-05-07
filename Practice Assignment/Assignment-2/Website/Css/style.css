@@ -325,10 +325,16 @@
 .Big .BigBlock{
     width: 350px;
     height: 500px;
-    background-color: #373F50;
+    /* background-color: #373F50; */
     margin: 50px 0 10px 10px;
 }
 
 .Big .bigb1{
     margin-left: 12rem;
+}
+
+.BigBlock .B1{
+  height: 240px;
+  margin-top: 10px;
+  background-color: #A3BFF9;
 }
