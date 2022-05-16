@@ -360,3 +360,7 @@
     background-color: #bee3f8;
 }
 
+.BigBlock img{
+    margin: 10px 0 0 15px;
+    border-radius: 10px;
+}
