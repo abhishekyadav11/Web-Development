@@ -364,3 +364,9 @@
     margin: 10px 0 0 15px;
     border-radius: 10px;
 }
+
+.bhead h4{
+    background-color: #e9d8fd;
+    padding: 8px 15px;
+    font-size: 11px;
+}
