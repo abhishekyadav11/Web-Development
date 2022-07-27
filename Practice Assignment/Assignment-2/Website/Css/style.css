@@ -369,9 +369,30 @@
     background-color: #e9d8fd;
     padding: 8px 15px;
     font-size: 11px;
+    margin-left: 3rem;
 }
 
 .B-Head h2{
-    margin-left: 20px;
-    margin-top: 15px;
+    margin-left: 2.7rem;
+    margin-top: 1.2rem;
+    font-size: 1.25rem;
+    width: 18rem;
+    color: #2d3748;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.bb{
+    background-color: white;
+    border-radius: 5%;
+}
+
+.bhead p{
+    margin-top: 1.6rem;
+    margin-left: 2.7rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #8f9aab;
+    width: 16rem;
 }
